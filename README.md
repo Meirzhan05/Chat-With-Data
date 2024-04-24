@@ -10,14 +10,17 @@
 ## Installation
 
 # Ensure you have Python installed on your system. Then clone this repository:
+```console
 git clone [repository-link]
 cd [repository-directory]
-
+```
 # Install the required packages:
+```console
 pip install -r requirements.txt
-
+```
 # Create your own .env file with the following variables:
-echo "OPENAI_API_KEY=[your-openai-api-key]" > .env
-
+```console
+OPENAI_API_KEY=[your-openai-api-key]
+```
 # To run the Streamlit app:
 streamlit run app.py
